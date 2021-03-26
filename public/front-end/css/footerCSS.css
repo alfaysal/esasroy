@@ -1,0 +1,126 @@
+*{
+	margin:0; padding: 0; position: relative;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+body{
+	background-color:#18191A;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*footer*/
+.page-footer{
+	width:100%;
+	height:auto;
+	/*background-color: #A20505;*/
+	background-color: #000;
+	margin-top:50px;
+	padding-bottom: 1px;
+}
+.footer-headings{
+	color: #A10505;
+}
+.separator{
+	width:100%;
+	height:2px;
+	background-color:yellow;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.page-footer .iconlist{
+	list-style-type: none;
+	display: inline-flex;
+	margin-left:41%;
+}
+.page-footer .iconlist li a{
+	margin-right:16px;
+}
+/*Responsive*/
+
+@media only screen and (min-width:319px) and (max-width: 360px){
+	.page-footer .contact-margin-top{
+		margin-top:13px;
+	}
+	.small-dev-padding{
+		padding: 10px 0px 14px 20px;
+	}
+	.page-footer a,
+	.page-footer .contact-margin-top p,
+	.page-footer .small{
+		font-size: 12px;
+	}
+	.page-footer p{
+		font-size: 17px;
+	}
+	.page-footer .contact-margin-top .h5{
+		font-size: 17px !important;
+	}
+	.page-footer .iconlist {
+	    margin-left: 24%;
+	    font-size: 12px;
+	}
+}
+@media only screen and (min-width: 361px) and (max-width: 429px){
+	.page-footer .contact-margin-top{
+		margin-top:13px;
+	}
+	.small-dev-padding{
+		padding-left: 40px;
+	}
+	.page-footer a,
+	.page-footer .contact-margin-top p,
+	.page-footer .small{
+		font-size: 12px;
+	}
+	.page-footer p{
+		font-size: 17px;
+	}
+	.page-footer .contact-margin-top .h5{
+		font-size: 17px !important;
+	}
+	.page-footer .iconlist {
+		margin-left: 29%;
+	}
+}
+@media only screen and (min-width: 430px) and (max-width: 575px) {
+	.page-footer .iconlist {
+		margin-left: 34%;
+	}
+	.small-dev-padding{
+		padding-left: 60px;
+	}
+	.contact-margin-top{
+		margin-top: 14px;
+	}
+	.page-footer a,
+	.page-footer .contact-margin-top p,
+	.page-footer .small{
+		font-size: 12px;
+	}
+	.page-footer p{
+		font-size: 17px;
+	}
+	.page-footer .contact-margin-top .h5{
+		font-size: 17px !important;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.small-dev-padding{
+		padding-left: 100px;
+	}
+	.page-footer .iconlist {
+		margin-left: 36%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.page-footer .iconlist {
+		margin-left: 39%;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.page-footer .iconlist {
+		margin-left: 41%;
+	}
+}
